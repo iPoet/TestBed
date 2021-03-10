@@ -1,0 +1,41 @@
+h1 {
+	color:red;
+	text-align: center;
+	}
+
+#container{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+#container > div {
+	background-color: orange;
+	width: 500px;
+	height: 400px;
+	padding: 20px;
+	margin: 20px;
+	font-family: Arial;
+	font-size: 28px;
+	font-weight: bold;
+	border: 3px solid black;
+}
+#foo {
+	background-color: red;
+}
+
+.baz {
+	color: yellow;
+}
+
+@media (min-width: 600px){
+	body {
+		background-color: white;
+	}
+}
+
+@media (max-width: 599px){
+	body{
+		background-color: black;
+	}
+}
